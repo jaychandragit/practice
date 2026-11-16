@@ -1,6 +1,6 @@
 const { test } = require('@playwright/test');
 
-test("webtable pagination example", async ({ page }) => {
+test("webtable pagination example @regression", async ({ page }) => {
     await page.goto("https://assertqa.com/practice/webtables");
 
     //identify the table lement

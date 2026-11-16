@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('test @sanity', async ({ page }) => {
   await page.goto('https://www.demoblaze.com/index.html');
   await page.getByRole('link', { name: 'Log in' }).click();
   await page.locator('#loginusername').fill('jaychandra.mca@gmail.com');

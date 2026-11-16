@@ -1,6 +1,6 @@
 const { test } = require('@playwright/test')
 
-test("webtable edit update", async ({ page }) => {
+test("@regression webtable edit update", async ({ page }) => {
     await page.goto("https://demoqa.com/webtables");
 
     /*

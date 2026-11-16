@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('Alert with OK', async ({ page }) => {
+test('Alert with OK @sanity', async ({ page }) => {
   await page.goto('https://testautomationpractice.blogspot.com/');
 
   //Enabling Dilaog window handler
