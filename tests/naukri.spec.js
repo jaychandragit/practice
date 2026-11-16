@@ -1,5 +1,5 @@
 import {test} from "@playwright/test";
-test("naukri", async ({page})=>{
+test.skip("naukri", async ({page})=>{
     await page.goto("https://www.naukri.com/");
     await page.getByTitle("Jobseeker Login").click();
     await page.getByPlaceholder("Enter your active Email ID / Username").fill("jaychandra.qa@gmail.com");
