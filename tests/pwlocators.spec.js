@@ -18,8 +18,6 @@ await page.getByPlaceholder('First Name').fill("Jaya");
 await page.getByPlaceholder('Last Name').fill("Chandra");
 await page.getByText('Save').click();
 
-await page.goto("https://testautomationpractice.blogspot.com/");
-await page.getByLabel('Name:').fill("test");
 }
 )
 

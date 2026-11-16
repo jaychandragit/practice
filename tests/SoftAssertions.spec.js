@@ -10,7 +10,7 @@ test("SoftAssertions", async ({page})=>
     await expect(page.locator('.navbar-brand')).toBeVisible();    */
 
     //Soft Assertions
-    await expect.soft(page).toHaveTitle('STORE1');
+    await expect.soft(page).toHaveTitle('STORE');
     await expect.soft(page).toHaveURL('https://www.demoblaze.com/index.html');
     await expect.soft(page.locator('.navbar-brand')).toBeVisible();
 
